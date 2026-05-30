@@ -9,10 +9,16 @@ public class VariablesYConstantes {
     }
 
     public static void demostrarConvencionesNombres() {
-        // TODO
+        int puntuacionmaxjuego = 100;
+        String nombreusuario = "Santi";
+        double promedioNotasEstudiante = 4.5;
+
+        System.out.println("Puntuación máxima: " + puntuacionmaxjuego);
+        System.out.println("Nombre: " + nombreusuario);
+        System.out.println("Promedio: " + promedioNotasEstudiante);
     }
 
     public static void demostrarConstantes() {
-        // TODO
+        final double PI = 3.1416;
     }
 }
